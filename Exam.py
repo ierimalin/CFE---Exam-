@@ -65,7 +65,7 @@ has_mechanisms_counts = tjet_clean_2021['has_mechanisms'].value_counts()
 
 plt.figure(figsize=(6, 5))
 has_mechanisms_counts.plot(kind='bar', color=['navy', 'red'])
-plt.title('Count of Has Mechanisms (0 and 1)')
+plt.title('How many countries have had Transitional Justice Mechanisms')
 plt.xlabel('Has Mechanisms (1 = Yes, 0 = No)')
 plt.ylabel('Count')
 plt.xticks(rotation=0)
